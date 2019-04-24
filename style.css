@@ -1,13 +1,22 @@
+body{
+    background-color: #d1d1d1;
+
+}
+
 #container
 {
+    border-radius: 10px;
 	margin: 0 30px;
 	background: #fff;
 }
 
 #header
 {
-	background: #ccc;
+
 	padding: 20px;
+    border-radius: 10px;
+    background: #d1f2ff;
+   border-radius: 10px 10px 0px 0px;
 }
 
 #header h1 { margin: 0; }
@@ -50,11 +59,7 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+    background-color: #d1f2ff;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -75,11 +80,7 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+    background-color: #d1f2ff;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -88,8 +89,9 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #d1f2ff;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    border-radius: 0px 00px 10px 10px;
 }
