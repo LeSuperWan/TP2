@@ -63,6 +63,11 @@ body{
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    transition: all 1s ease;
+}
+
+#edito:hover{
+    transform: rotate(180deg);
 }
 
 #edito h2
@@ -84,6 +89,11 @@ body{
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    transition: all 1s ease;
+}
+
+#news:hover{
+    transform: rotate(180deg);
 }
 
 #footer
